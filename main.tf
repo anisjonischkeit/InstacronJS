@@ -61,8 +61,9 @@ resource "aws_lambda_function" "instacron" {
 
 resource "aws_cloudwatch_event_rule" "every_day" {
   name = "every-day"
-  description = "Fires every day"
-  schedule_expression = "rate(1 day)"
+  description = "Fires every day at 23.15 UTC"
+  # https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/ScheduledEvents.html
+  schedule_expression = "cron(15 23 * * ? *)"
 }
 
 resource "aws_cloudwatch_event_target" "instacron_every_day" {

@@ -13,5 +13,6 @@ Instacron now has the following new features:
 ```
 npm install
 npm run package
+terraform init
 terraform apply
 ```

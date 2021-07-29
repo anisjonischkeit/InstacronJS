@@ -7,3 +7,11 @@ This project started with just terraforming https://github.com/basnijholt/instac
 Instacron now has the following new features:
 - It reads from a dropbox account and keeps track of the uploaded files
 - It can be deployed to run routinely on aws lambda using terraform
+
+## Deploying
+
+```
+npm install
+npm run package
+terraform apply
+```

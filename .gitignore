@@ -1,1 +1,6 @@
 node_modules
+.terraform.lock.hcl
+instacronjs.zip
+terraform.tfstate
+terraform.tfstate.backup
+terraform-provider-*

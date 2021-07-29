@@ -1,5 +1,7 @@
-const instacron = require("./lib")
+const instacron = require("./lib");
 
-instacron.run()
-  
+(async () => {
+    await instacron.run()
+    console.log("done")
+})()
   

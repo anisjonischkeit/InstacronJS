@@ -12,7 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "dropbox": "^10.4.3",
+    "exif-js": "^2.3.0",
     "instagram-web-api": "git+https://github.com/anisjonischkeit/instagram-web-api",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "node-geocoder": "^3.27.0",
+    "random-unicode-emoji": "^1.0.1"
   }
 }
